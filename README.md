@@ -25,6 +25,7 @@ If you experience login manager black screen, you might need this [package](http
 You can launch this script using:
 
 - Alt + F2 run command (krunner)
+
 If for some reason this script is not availabe, just type: ```kwin --replace``` and then launch the script from somewhere
 
 - Using Desktop Launcher and run it via plasma application menu
@@ -32,4 +33,5 @@ If for some reason this script is not availabe, just type: ```kwin --replace``` 
 - Launching it in Dolphin or any other File manager
 
 - From virtual console, but it will leave kwin to print to STDOUT, but use this in case of emergency, afterwards run the script from Dolphin
+
 Don't forget to use DISPLAY=:0 fix-kwin-nvidia
