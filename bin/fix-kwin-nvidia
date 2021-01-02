@@ -1,0 +1,9 @@
+#!/bin/bash
+
+
+echo "Do not use this in virtual console, unless you set your KDE session somehow)\
+Try DISPLAY=:0 kwin --replace \
+However this will leave the kwin running in the virtual console, you wil have to reload it from dolphin by clicking on this script"
+
+export KWIN_TRIPLE_BUFFER=1
+kwin --replace
